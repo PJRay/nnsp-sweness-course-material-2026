@@ -1,0 +1,3 @@
+# Auto-generated output from running the simulation
+interface_SimplePowderDiffractometer_generated
+SimplePowderDiffractometer_generated
