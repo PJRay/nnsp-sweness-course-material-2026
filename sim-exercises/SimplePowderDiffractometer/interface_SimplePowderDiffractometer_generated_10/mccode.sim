@@ -1,0 +1,49 @@
+mcstas simulation description file for SimplePowderDiffractometer_generated.
+Date:    Fri Sep 25 09:14:41 2026
+Program:  3.7.18, git
+
+begin instrument: SimplePowderDiffractometer_generated
+  File: /home/0000-0002-6409-0469/testing/SimplePowderDiffractometer_copy/interface_SimplePowderDiffractometer_generated_10/mccode
+  Source: SimplePowderDiffractometer_generated.instr
+  Parameters:  lambda0(double) dlambda(double) coll(double) container(int) sample(int)
+  Trace_enabled: yes
+  Default_main: yes
+  Embedded_runtime: yes
+end instrument
+
+begin simulation: /home/0000-0002-6409-0469/testing/SimplePowderDiffractometer_copy/interface_SimplePowderDiffractometer_generated_10
+  Format: McCode with text headers
+  URL: http://www.mccode.org
+  Creator:  3.7.18, git
+  Instrument: SimplePowderDiffractometer_generated.instr
+  Ncount: 1000000
+  Trace: no
+  Gravitation: no
+  Seed: 1790320481660230
+  Directory: /home/0000-0002-6409-0469/testing/SimplePowderDiffractometer_copy/interface_SimplePowderDiffractometer_generated_10
+  Param: lambda0=1
+  Param: dlambda=0.005
+  Param: coll=120
+  Param: container=0
+  Param: sample=0
+end simulation
+
+begin data
+  Date: Fri Sep 25 09:14:42 2026 (1790320482)
+  type: array_1d(400)
+  Source: SimplePowderDiffractometer_generated (SimplePowderDiffractometer_generated.instr)
+  component: Detector
+  position: 0 0 3
+  title: Longitude [deg] monitor
+  Ncount: 1000000
+  filename: detector.dat
+  statistics: X0=52.7766; dX=21.932;
+  signal: Min=0; Max=217.404; Mean=20.3575;
+  values: 8142.99 27.6164 170441
+  xvar: th
+  yvar: (I,I_err)
+  xlabel: Longitude [deg]
+  ylabel: Intensity [n/s/bin]
+  xlimits: 20 100
+  variables: th I I_err N
+end data
