@@ -1,0 +1,88 @@
+{
+ "questions": {
+  "1": {
+   "type": "marker",
+   "image": "sans_webpage_dragdrop.png",
+   "markers": [
+    "POI",
+    "LPOI",
+    "RSI",
+    "LRSI",
+    "ISI",
+    "LISI"
+   ],
+   "count": 1,
+   "fb": "eyJ0cmllcyI6IDQsICJoaW50cyI6IFsiPHA+WW91IG1pZ2h0IHdhbnQgdG8gbG9vayBhdCB0aGUgYXhlcyBvZiB0aGUgcGxvdHMuPC9wPiIsICI8cD5IYXZlIHlvdSBjb25zaWRlcmVkIHRoZSBkaWZmZXJlbmNlIGJldHdlZW4gcmVhbCBzcGFjZSBhbmQgcmVjaXByb2NhbCBzcGFjZT88L3A+IiwgIjxwPlRoZSBib3R0b20gY29sdW1uIG9ubHkgaGFzIGxvZy1yZXByZXNlbnRhdGlvbnMuPC9wPiJdLCAic3BlYyI6IHsiaW5jb3JyZWN0IjogIjxwPldlIGRvIG5vdCBmdWxseSBhZ3JlZSB3aXRoIHlvdXIgY2hvaWNlcy4gVHJ5IGFnYWluITwvcD4iLCAiY29ycmVjdCI6ICI8cD5Zb3VyIGFuc3dlciBpcyBjb3JyZWN0LjwvcD4iLCAicGFydGlhbCI6ICI8cD5Zb3VyIGFuc3dlciBpcyBwYXJ0aWFsbHkgY29ycmVjdC48L3A+In0sICJnZW5lcmFsIjogbnVsbCwgInNob3dfcmlnaHQiOiBmYWxzZSwgInpvbmVzIjogW3sibGFiZWwiOiAiUE9JIiwgInJlY3RzIjogW1swLCAwLCAxOTUsIDE2Ml1dfSwgeyJsYWJlbCI6ICJSU0kiLCAicmVjdHMiOiBbWzE5NSwgMCwgMzk1LCAxNjJdXX0sIHsibGFiZWwiOiAiSVNJIiwgInJlY3RzIjogW1szOTUsIDAsIDYwMCwgMTYyXV19LCB7ImxhYmVsIjogIkxQT0kiLCAicmVjdHMiOiBbWzAsIDE2MiwgMTk1LCAzMzddXX0sIHsibGFiZWwiOiAiTFJTSSIsICJyZWN0cyI6IFtbMTk1LCAxNjIsIDM5NSwgMzM3XV19LCB7ImxhYmVsIjogIkxJU0kiLCAicmVjdHMiOiBbWzM5NSwgMTYyLCA2MDAsIDMzN11dfV19"
+  },
+  "2": {
+   "type": "multi",
+   "options": [
+    "a. The $I(r)$ graph shows the measured intensity as a function of the distance from the center of the detector to the point, where the neutron was detected.",
+    "b. The $I(r)$ graph shows the measured intensity as a function of the distance from the sample to the detector. This is the reason for the change in simulation pattern, when the detector is moved.",
+    "c. The $I(r)$ graph shows the measured intensity as a function of the radius of the spheres. The $I(r)$-graph therefore allows us to relate the dimensions of the sample to the measured intensity."
+   ],
+   "fb": "eyJ0cmllcyI6IDMsICJoaW50cyI6IFtdLCAic3BlYyI6IHsiaW5jb3JyZWN0IjogIjxwPllvdXIgYW5zd2VyIGlzIGluY29ycmVjdC48L3A+IiwgImNvcnJlY3QiOiAiPHA+WW91ciBhbnN3ZXIgaXMgY29ycmVjdC48L3A+IiwgInBhcnRpYWwiOiAiPHA+WW91ciBhbnN3ZXIgaXMgcGFydGlhbGx5IGNvcnJlY3QuPC9wPiJ9LCAiZ2VuZXJhbCI6ICI8cD5UaGUgY29ycmVjdCByZXNwb25zZSBpczogVGhlICRJKHIpJCBncmFwaCBzaG93cyB0aGUgbWVhc3VyZWQgaW50ZW5zaXR5IGFzIGEgZnVuY3Rpb24gb2YgdGhlIGRpc3RhbmNlIGZyb20gdGhlIGNlbnRlciBvZiB0aGUgZGV0ZWN0b3IgdG8gdGhlIHBvaW50LCB3aGVyZSB0aGUgbmV1dHJvbiB3YXMgZGV0ZWN0ZWQuPC9wPiIsICJzaG93X3JpZ2h0IjogZmFsc2UsICJvcHRmYiI6IHsiMCI6ICJUaGlzIHdvdWxkIG1lYW4gdGhhdCB0aGUgaW50ZW5zaXR5IGF0IGEgZ2l2ZW4gcG9pbnQgb24gdGhlIGhvcml6b250YWwgYXhpcyBpcyBhbiBhemltdXRoYWwgYXZlcmFnZSBvbiB0aGUgMi1kaW1lbnNpb25hbCBpbWFnZSBwcm9kdWNlZCBieSB0aGUgdmlydHVhbCBleHBlcmltZW50LiBUaGlzIGlzIGluZGVlZCB3aGF0IHRoZSAkSShyKSQtZ3JhcGggc2hvd3MuIEdvb2Qgam9iITxicj5EbyB5b3Uga25vdyB3aHkgdGhlIG90aGVyIHR3byBwb3NzaWJsZSByZXNwb25zZXMgYXJlIG5vdCBhcyBnb29kIGFzIHRoaXMgb25lPyIsICIxIjogIlRoaXMgd291bGQgbWVhbiB0aGF0IHRoZSBpbnRlbnNpdHkgYXQgYSBnaXZlbiBwb2ludCBvbiB0aGUgaG9yaXpvbnRhbCBheGlzIGlzIGFuIGF6aW11dGhhbCBhdmVyYWdlIG9uIHRoZSAyLWRpbWVuc2lvbmFsIGltYWdlIHByb2R1Y2VkIGJ5IHRoZSB2aXJ0dWFsIGV4cGVyaW1lbnQuIFRoaXMgaXMgaW5kZWVkIHdoYXQgdGhlICRJKHIpJC1ncmFwaCBzaG93cy4gR29vZCBqb2IhPGJyPkRvIHlvdSBrbm93IHdoeSB0aGUgb3RoZXIgdHdvIHBvc3NpYmxlIHJlc3BvbnNlcyBhcmUgbm90IGFzIGdvb2QgYXMgdGhpcyBvbmU/IiwgIjIiOiAiVGhpcyB3b3VsZCBtZWFuIHRoYXQgdGhlIGludGVuc2l0eSBhdCBhIGdpdmVuIHBvaW50IG9uIHRoZSBob3Jpem9udGFsIGF4aXMgaXMgYW4gYXppbXV0aGFsIGF2ZXJhZ2Ugb24gdGhlIDItZGltZW5zaW9uYWwgaW1hZ2UgcHJvZHVjZWQgYnkgdGhlIHZpcnR1YWwgZXhwZXJpbWVudC4gVGhpcyBpcyBpbmRlZWQgd2hhdCB0aGUgJEkocikkLWdyYXBoIHNob3dzLiBHb29kIGpvYiE8YnI+RG8geW91IGtub3cgd2h5IHRoZSBvdGhlciB0d28gcG9zc2libGUgcmVzcG9uc2VzIGFyZSBub3QgYXMgZ29vZCBhcyB0aGlzIG9uZT8ifSwgImtleSI6IFswXSwgImV4dHJhX29rIjogZmFsc2UsICJyaWdodCI6ICJhLiBUaGUgJEkocikkIGdyYXBoIHNob3dzIHRoZSBtZWFzdXJlZCBpbnRlbnNpdHkgYXMgYSBmdW5jdGlvbiBvZiB0aGUgZGlzdGFuY2UgZnJvbSB0aGUgY2VudGVyIG9mIHRoZSBkZXRlY3RvciB0byB0aGUgcG9pbnQsIHdoZXJlIHRoZSBuZXV0cm9uIHdhcyBkZXRlY3RlZC4ifQ=="
+  },
+  "3": {
+   "type": "single",
+   "options": [
+    "a. $R=2\\theta d$",
+    "b. $R=\\frac{2d}{\\theta}$",
+    "c. $R=\\frac{2\\theta}{d}$",
+    "d. $R=\\frac{d}{2\\theta}$"
+   ],
+   "fb": "eyJ0cmllcyI6IDEsICJoaW50cyI6IFtdLCAic3BlYyI6IHsiY29ycmVjdCI6ICI8cD5Zb3VyIGFuc3dlciBpcyBjb3JyZWN0LjwvcD4iLCAicGFydGlhbCI6ICI8cD5Zb3VyIGFuc3dlciBpcyBwYXJ0aWFsbHkgY29ycmVjdC48L3A+IiwgImluY29ycmVjdCI6ICI8cD5Zb3VyIGFuc3dlciBpcyBpbmNvcnJlY3QuPC9wPiJ9LCAiZ2VuZXJhbCI6IG51bGwsICJzaG93X3JpZ2h0IjogZmFsc2UsICJvcHRmYiI6IHt9LCAia2V5IjogWzBdLCAicmlnaHQiOiAiYS4gJFI9MlxcdGhldGEgZCQifQ=="
+  },
+  "4": {
+   "type": "single",
+   "options": [
+    "a. $q=\\frac{2\\pi \\lambda}{r d}$",
+    "b. $q=\\frac{2\\pi r}{\\lambda d}$",
+    "c. $q=\\frac{2\\pi d}{\\lambda r}$",
+    "d. $q=\\frac{\\lambda d}{2\\pi r}$"
+   ],
+   "fb": "eyJ0cmllcyI6IDEsICJoaW50cyI6IFtdLCAic3BlYyI6IHsiaW5jb3JyZWN0IjogIjxwPllvdXIgYW5zd2VyIGlzIGluY29ycmVjdC48L3A+IiwgImNvcnJlY3QiOiAiPHA+WW91ciBhbnN3ZXIgaXMgY29ycmVjdC48L3A+IiwgInBhcnRpYWwiOiAiPHA+WW91ciBhbnN3ZXIgaXMgcGFydGlhbGx5IGNvcnJlY3QuPC9wPiJ9LCAiZ2VuZXJhbCI6IG51bGwsICJzaG93X3JpZ2h0IjogZmFsc2UsICJvcHRmYiI6IHt9LCAia2V5IjogWzFdLCAicmlnaHQiOiAiYi4gJHE9XFxmcmFjezJcXHBpIHJ9e1xcbGFtYmRhIGR9JCJ9"
+  },
+  "5": {
+   "type": "multi",
+   "options": [
+    "a. The magnitude of $q$ is a fundamental physical quantity independent on the instrumental setup (for example, the size of the detector and the wavelength of the neutrons). Therefore, $I(q)$-plots will be more general than $I(r)$-plots.",
+    "b. Traditionally in scattering physics, we prefer notations relating to reciprocal space, as the majority of the data analysis and interpretation is done in this space. As q is a reciprocal space-variable, this is usually the way it is shown.",
+    "c. $q$ describes actual properties in the sample, which is the most relevant part of the experiment. While $r$ might be interesting for instrumental design, it is irrelevant for the purposes of analyses."
+   ],
+   "fb": "eyJ0cmllcyI6IDIsICJoaW50cyI6IFtdLCAic3BlYyI6IHsiaW5jb3JyZWN0IjogIjxwPllvdXIgYW5zd2VyIGlzIGluY29ycmVjdC48L3A+IiwgImNvcnJlY3QiOiAiPHA+WW91ciBhbnN3ZXIgaXMgY29ycmVjdC48L3A+IiwgInBhcnRpYWwiOiAiPHA+WW91ciBhbnN3ZXIgaXMgcGFydGlhbGx5IGNvcnJlY3QuPC9wPiJ9LCAiZ2VuZXJhbCI6IG51bGwsICJzaG93X3JpZ2h0IjogZmFsc2UsICJvcHRmYiI6IHsiMCI6ICJDb3JyZWN0LiBNb3N0IHBoeXNpY2lzdCB3b3VsZCBhZ3JlZSB3aXRoIHlvdS4ifSwgImtleSI6IFswXSwgImV4dHJhX29rIjogZmFsc2UsICJyaWdodCI6ICJhLiBUaGUgbWFnbml0dWRlIG9mICRxJCBpcyBhIGZ1bmRhbWVudGFsIHBoeXNpY2FsIHF1YW50aXR5IGluZGVwZW5kZW50IG9uIHRoZSBpbnN0cnVtZW50YWwgc2V0dXAgKGZvciBleGFtcGxlLCB0aGUgc2l6ZSBvZiB0aGUgZGV0ZWN0b3IgYW5kIHRoZSB3YXZlbGVuZ3RoIG9mIHRoZSBuZXV0cm9ucykuIFRoZXJlZm9yZSwgJEkocSkkLXBsb3RzIHdpbGwgYmUgbW9yZSBnZW5lcmFsIHRoYW4gJEkocikkLXBsb3RzLiJ9"
+  },
+  "6": {
+   "type": "input",
+   "rows": [
+    "When the average neutron wavelength is increased, ___ on the $I(q)$ plots.",
+    "When the neutron wavelength spread is increased, ___ on the $I(q)$ plots."
+   ],
+   "choices": [
+    "the q-range on the plot changes",
+    "the peaks get more smeared",
+    "position of the peaks move to smaller $q$-values",
+    "position of the peaks move to larger $q$-values",
+    "nothing happens"
+   ],
+   "fb": "eyJ0cmllcyI6IDMsICJoaW50cyI6IFsiPHA+TG9vayBjYXJlZnVsbHkgb24gdGhlIHZhbHVlcyBvbiB0aGUgJHEkIGF4aXMgLi4uPGJyPjwvcD4iLCAiPHA+V2hhdCBpcyB0aGUgcmVsYXRpb24gYmV0d2VlbiBuZXV0cm9uIHdhdmVsZW5ndGggYW5kIHNjYXR0ZXJpbmcgd2F2ZXZlY3RvciA/PGJyPjwvcD4iXSwgInNwZWMiOiB7InBhcnRpYWwiOiAiWW91ciBhbnN3ZXIgaXMgcGFydGlhbGx5IGNvcnJlY3QuIiwgImluY29ycmVjdCI6ICJZb3VyIGFuc3dlciBpcyBpbmNvcnJlY3QuIiwgImNvcnJlY3QiOiAiWW91ciBhbnN3ZXIgaXMgY29ycmVjdC4ifSwgImdlbmVyYWwiOiAiPHA+V2hlbiBwcmVmb3JtaW5nIGEgU0FOUyBleHBlcmltZW50IGNob29zaW5nIHRoZSByaWdodCB3YXZlbGVuZ3RoIGlzIGltcG9ydGFudCBzaW5jZSBpdCB3aWxsIGdpdmUgdXMgYWNjZXNzIHRvIGRpZmZlcmVudCBwYXJ0cyBvZiBxLXNwYWNlIGluIGEgZ2l2ZSBkZXRlY3RvciBkaXN0YW5jZS4gQ2hvb3NpbmcgYSBsb25nIHdhdmVsZW5ndGggd2lsbCBmb2N1cyBvbiBhIGxvdyBxIHJhbmdlIGFuZCBhIHNob3J0IHdhdmVsZW5ndGggd2lsbCBmb2N1cyBvbiBhIGhpZ2hlciBxIHJhbmdlLiBUaGUgcmlnaHQgcSByYW5nZSBkZXBlbmRzIG9uIHRoZSBzaW5jZSBvZiB3aGF0IHlvdSB3YW50IHRvIG1lYXN1cmUuPC9wPiIsICJzaG93X3JpZ2h0IjogZmFsc2UsICJrZXkiOiBbInRoZSBxLXJhbmdlIG9uIHRoZSBwbG90IGNoYW5nZXMiLCAidGhlIHBlYWtzIGdldCBtb3JlIHNtZWFyZWQiXSwgInJpZ2h0IjogInRoZSBxLXJhbmdlIG9uIHRoZSBwbG90IGNoYW5nZXMsIHRoZSBwZWFrcyBnZXQgbW9yZSBzbWVhcmVkIn0="
+  },
+  "7": {
+   "type": "input",
+   "rows": [
+    "When the average size of the spheres increases ___ on the $I(q)$ plot.",
+    "When the size-spread of the spheres increases ___ on the $I(q)$ plot."
+   ],
+   "choices": [
+    "the q-range changes",
+    "the peaks get broader",
+    "the peaks get narrower",
+    "the peaks get more smeared",
+    "the peaks move to lower-q positions",
+    "he peaks move to higher-q positions",
+    "nothing happens"
+   ],
+   "fb": "eyJ0cmllcyI6IDMsICJoaW50cyI6IFsiPHA+V2hlbiB5b3UgYXJlIG1lYXN1cmluZyBkaWZmZXJlbnQgc2FtcGxlcywgc2hvdWxkIHlvdSB0aGVuIHJlY29yZCBhIGRpZmZlcmVudCBwYXR0ZXJuIG9uIHRoZSBkZXRlY3Rvcj88YnI+PC9wPiIsICI8cD5UaGUgc2l6ZSBvZiB0aGUgcGFydGljbGVzIGFuZCB0aGUgcG9zaXRpb24gb2YgdGhlIGZpcnN0IHBlYWsgaXMgcm91Z2hseSBpbnZlcnNlbHkgcHJvcG9ydGlvbmFsLjxicj48L3A+Il0sICJzcGVjIjogeyJpbmNvcnJlY3QiOiAiWW91ciBhbnN3ZXIgaXMgaW5jb3JyZWN0LiIsICJjb3JyZWN0IjogIllvdXIgYW5zd2VyIGlzIGNvcnJlY3QuIiwgInBhcnRpYWwiOiAiPHA+WW91ciBhbnN3ZXIgaXMgcGFydGlhbGx5IGNvcnJlY3QuPC9wPiJ9LCAiZ2VuZXJhbCI6IG51bGwsICJzaG93X3JpZ2h0IjogZmFsc2UsICJrZXkiOiBbInRoZSBwZWFrcyBtb3ZlIHRvIGxvd2VyLXEgcG9zaXRpb25zIiwgInRoZSBwZWFrcyBnZXQgbW9yZSBzbWVhcmVkIl0sICJyaWdodCI6ICJ0aGUgcGVha3MgbW92ZSB0byBsb3dlci1xIHBvc2l0aW9ucywgdGhlIHBlYWtzIGdldCBtb3JlIHNtZWFyZWQifQ=="
+  }
+ }
+}
